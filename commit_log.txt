@@ -1,0 +1,1 @@
+- Commit 2 (Profiling Engine): Implement the low-level C++ tracing mechanism that logs execution times and memory allocations of massively-parallel inference steps.
