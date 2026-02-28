@@ -1,3 +1,4 @@
 - Commit 2 (Profiling Engine): Implement the low-level C++ tracing mechanism that logs execution times and memory allocations of massively-parallel inference steps.
 - Commit 3 (Bottleneck Detection): Write the analysis logic to parse the traces and identify deeply hidden runtime bottlenecks (e.g., kernel launch overhead, memory stalls).
 - Commit 4 (Python Interface): Create a Python wrapper that developers can use to wrap their PyTorch/TensorFlow code and generate the C++ profiling reports.
+- Commit 5 (Deployment & Polish): Provide a case study script demonstrating a 25% execution speedup based on the debugger's findings. Document the tool.
