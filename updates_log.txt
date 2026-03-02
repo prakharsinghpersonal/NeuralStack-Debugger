@@ -1,0 +1,1 @@
+- Enhance NeuralStack-Debugger to capture and visualize standard compiler intermediate representations (IR) during the C++ execution phase. Implement an automated report generator that flags inefficient multi-threading layouts natively inside the IR graphs before runtime. Update the repository structure to include these new analysis scripts.
